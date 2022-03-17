@@ -12,4 +12,4 @@ Nested BioNER:
 
 
 
-We refer to this [repository](https://github.com/ShannonAI/mrc-for-flat-nested-ner) for MRC Style Data Processing.
+We refer to this [repository](https://github.com/ShannonAI/mrc-for-flat-nested-ner) to process data and obtain MRC Style Data.
