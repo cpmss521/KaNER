@@ -2,9 +2,9 @@
 
 ## Download Datasets 
 Flat BioNER:
-- [JNLPBA](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data)
-- [BC5CDR](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data)  
-- [NCBI](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data)
+- [JNLPBA]
+- [BC5CDR]
+- [NCBI]
 - BioNLP09  
 - BioNLP11EPI  
 - AnatEM  
