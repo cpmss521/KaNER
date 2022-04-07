@@ -21,3 +21,8 @@ datasets lies in data file
 + scispaCy  preprocess the concept description information 
 
 
+### References
+```
+[1] Eberts, Markus, and Adrian Ulges. "Span-based joint entity and relation extraction with transformer pre-training." arXiv preprint arXiv:1909.07755 (2019).
+[2] Li, Xiaoya, et al. "A unified MRC framework for named entity recognition." arXiv preprint arXiv:1910.11476 (2019).
+```
