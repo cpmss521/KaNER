@@ -198,8 +198,8 @@ class KnowledgeAttentionLayer(nn.Module):
         dec_slf_attn_list, dec_enc_attn_list = [], []
 
         ## context and query atttention(B,S,3H)
-        att_text_query, M_atten = self.context_query_atten(sequences, sequence_mask, query,query_mask)
-        att_text_evidence, M1_atten = self.context_query_atten(sequences, sequence_mask, evidence,evidence_mask)
+        att_text_query, _ = self.context_query_atten(sequences, sequence_mask, query,query_mask)
+        att_text_evidence, _ = self.context_query_atten(sequences, sequence_mask, evidence,evidence_mask)
         att_text_query = torch.cat([att_text_query,att_text_evidence],dim=-1)#B*S*2H
 
         knowledge_out,knowledge_attn = self.self_attention(knowledge_embed,knowledge_embed,knowledge_embed,knowledge_mask)
@@ -216,7 +216,7 @@ class KnowledgeAttentionLayer(nn.Module):
 
         sequence_repr = torch.cat([sequences,att_text_query,knowledge_embed],dim=-1)#B*S*4H
 
-        return sequence_repr,M_atten,M1_atten
+        return sequence_repr
 
 
 
