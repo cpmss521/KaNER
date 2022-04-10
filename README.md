@@ -4,12 +4,12 @@
 ###  Examples Instructions
 (1) Train NCBI on train dataset, evaluate on dev dataset:
 ```
-python ./spert.py train --config configs/example_train.conf
+python ./BioNER.py train --config configs/train.conf
 ```
 
 (2) Evaluate the NCBI model on test dataset:
 ```
-python ./spert.py eval --config configs/example_eval.conf
+python ./BioNER.py eval --config configs/eval.conf
 ```
 
 ### Fetch data
