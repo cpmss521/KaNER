@@ -1,6 +1,6 @@
 # KaNER
 
-code for Knowledge Adaptive Multi-way Matching Network for Biomedical Named Entity Recognition via Machine Reading Comprehension
+code for `Knowledge Adaptive Multi-way Matching Network for Biomedical Named Entity Recognition via Machine Reading Comprehension"
 ###  Examples Instructions
 (1) Train NCBI on train dataset, evaluate on dev dataset:
 ```
