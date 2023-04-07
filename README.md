@@ -1,6 +1,6 @@
 # KaNER
 
-code for "Knowledge Adaptive Multi-way Matching Network for Biomedical Named Entity Recognition via Machine Reading Comprehension"
+code for TCBB paper "[Knowledge Adaptive Multi-way Matching Network for Biomedical Named Entity Recognition via Machine Reading Comprehension](https://ieeexplore.ieee.org/document/10005143)"
 ###  Examples Instructions
 (1) Train BioNLP11EPI on train dataset, evaluate on dev dataset:
 ```
